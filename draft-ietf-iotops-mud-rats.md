@@ -164,21 +164,25 @@ The following definition MUST be used, if a MUD URI points to a RATS MUD file.
 
 The following tree diagram {{RFC8340}} provides an overview of the data model for the "ietf-mud-rats" module augment.
 
+<!--
 ~~~~
 <CODE BEGINS>
-{::include ietf-mud-rats.tree}
+{ ::include ietf-mud-rats.tree}
 <CODE ENDS>
 ~~~~
+-->
 
 ## YANG Module
 
 This YANG module has normative references to {{RFC6991}} and augments {{-mud}}.
 
+<!--
 ~~~~ YANG
 <CODE BEGINS> file ietf-mud-rats@2025-02-09.yang
-{::include ietf-mud-rats.yang}
+{ ::include ietf-mud-rats.yang}
 <CODE ENDS>
 ~~~~
+-->
 
 # Privacy Considerations
 
