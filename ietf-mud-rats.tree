@@ -1,0 +1,9 @@
+
+module: ietf-mud-rats
+  augment /mud:mud:
+    +--rw ras
+    |  +--rw ras-uris*   inet:uri
+    +--rw rim
+    |  +--rw rim-uris*   inet:uri
+    +--rw edt
+       +--rw edt-uris*   inet:uri
